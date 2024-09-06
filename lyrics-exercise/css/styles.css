@@ -1,0 +1,88 @@
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    background-image: url("https://i.pinimg.com/originals/96/24/2c/96242c142ff4426682f63d1bf63515ac.gif");
+    background-size: 210px;
+    background-attachment: fixed;
+}
+
+main {
+    color:#000000;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dedddde7;
+}
+
+header h1 {
+    font-size: 48px;
+    text-align: center;
+    animation: colorChange 3s infinite; 
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: red;
+            }
+            25% {
+                color: blue;
+            }
+            50% {
+                color: green;
+            }
+            75% {
+                color: orange;
+            }
+            100% {
+                color: red;
+            }
+}
+
+header h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    animation: colorChange 3s infinite; 
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: red;
+            }
+            25% {
+                color: blue;
+            }
+            50% {
+                color: green;
+            }
+            75% {
+                color: orange;
+            }
+            100% {
+                color: red;
+            }
+}
+
+
+.first{
+    animation: colorChange 3s infinite; 
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: red;
+            }
+            25% {
+                color: blue;
+            }
+            50% {
+                color: green;
+            }
+            75% {
+                color: orange;
+            }
+            100% {
+                color: red;
+            }
+}
