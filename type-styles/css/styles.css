@@ -1,0 +1,84 @@
+html{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 0.7;
+    text-align: center;
+}
+
+.regular{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.sb{
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bold{
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.italic{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.wide{
+    letter-spacing: .4em;
+}
+
+.narrow{
+    letter-spacing: -0.08em;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.line-thru{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.up{
+    text-transform: uppercase;
+}
+
+.low{
+    text-transform: lowercase;
+}
+
+.cap{
+    text-transform: capitalize;
+}
+
+p{
+    line-height:0.5;
+}
+
+h3{
+    font-size:18px;
+    line-height: 0.1;
+    color:grey;
+}
+
+h2{
+    line-height: 1;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 55px;
+}
