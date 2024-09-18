@@ -6,7 +6,7 @@ p{
     line-height: 1.6;
 }
 
-a.see-all{
+.see-all{
     font-size: 0.8em;
     text-transform: uppercase;
 }
@@ -41,7 +41,7 @@ li.selected a {
     color: black;
 }
 
-section.cast div{
+section.cast li div{
     font-size: 0.8rem;
 }
 
@@ -49,7 +49,7 @@ section.cast div{
     font-weight: bold;
 }
 
-section.cast div:last-child{
+.cast li div:last-child{
     font-style: italic;
 }
 
