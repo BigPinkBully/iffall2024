@@ -1,0 +1,190 @@
+body{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    text-align:center;
+    background-color: antiquewhite;
+}
+
+article{
+    background-image: url('../images/sample1.jpeg');
+    background-size: cover;
+    max-width: 1200px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-position: center;
+    color: white;
+    margin: 0;
+    margin-right: -10px; 
+    margin-left: -10px; 
+    margin-top: -20px;
+}
+
+h3{
+    color: transparent;
+    font-size:12px;
+    margin: 0;
+    line-height: 1;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size:23px;
+    line-height: auto;
+
+}
+
+h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size:30px;
+    line-height: 30px;
+}
+
+
+.info ul{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.info li{
+    width:33%;
+}
+
+.ins{
+    padding-top: 10px;
+}
+
+div{
+    padding-top: 25px;
+
+}
+
+.source{
+    margin-top: 50px;
+}
+
+@media (max-width: 699px) {
+    header{
+        font-size: 20px;
+    }
+
+    section>ul{
+        list-style: none;
+        padding-left: 0;
+
+    }
+
+    .steps{
+        margin: 0;
+        width: 80%;
+    }
+
+    div{
+        text-align: center;
+    }
+
+    .first{
+        margin-top: -40px;
+    }
+    
+}
+
+
+@media (min-width: 700px) {
+    section>ul{
+        list-style: none;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+    }
+    
+    .steps{
+        padding-left: 20%;
+        width: 40vw;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .ins ul p{
+        margin: auto;
+        text-align: left;
+        width: 300px;
+    }
+
+    div{
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 900px) {
+    section>ul{
+        list-style: none;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+    }
+    
+    .steps{
+        padding-left: 20%;
+        width: 360px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .ins ul p{
+        margin: auto;
+        text-align: left;
+        width: 300px;
+    }
+
+    div{
+        text-align: left;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    section>ul{
+        list-style: none;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+    }
+    
+    .steps{
+        padding-left: 20%;
+        width: 360px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .ins ul p{
+        margin: auto;
+        text-align: left;
+        width: 300px;
+    }
+
+    div{
+        text-align: left;
+    }
+
+    article{
+        margin: 0 auto;
+    }
+
+}
