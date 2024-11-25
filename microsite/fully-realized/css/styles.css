@@ -345,7 +345,10 @@ footer a{
         display: flex;
         justify-content: center;
     }
-    
+    main .big{
+        margin-bottom: -145px;
+    }
+}
 
 @media(max-width:440px){
     body{
@@ -389,7 +392,7 @@ footer a{
         display:flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: -150px;
+        margin-bottom: -87px;
     }
     .left,.right{
         display: contents;
@@ -411,7 +414,53 @@ footer a{
     .big img{
         max-width: 98%;
     }
-    .big{
+    body main .big{
         margin-bottom: -233px;
+    }
+}
+
+@media (max-width:440px) {
+    .big{
+        margin-bottom: -143px;
+    }
+}
+
+.side{
+    position: fixed;
+    top:190px;
+    left:-450px;
+    width: 41%;
+    z-index: -100;
+    transform: rotate(20deg);
+}
+
+.side2{
+    position: fixed;
+    top: 190px;
+    right:-450px;
+    width: 41%;
+    z-index: -100;
+    transform: rotate(-20deg);
+}
+
+#man3{
+    left:-403px;
+}
+
+#man4{
+    right: -300px;
+    top: 50px;
+    width: 35%;
+}
+
+#man5{
+    left: -350px;
+    top: 150px;
+    width: 35%;
+}
+
+@media (max-width:1800px) {
+    .side, .side2{
+        opacity: 0;
     }
 }
